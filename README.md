@@ -7,8 +7,8 @@ Fullstack + AI Web Development Roadmap 2026.
 
 | Phase | Topic | Status |
 |-------|-------|--------|
-| Phase 0 | Mindset & Tooling | 🔄 In Progress |
-| Phase 1 | Web Foundations | ⏳ Upcoming |
+| Phase 0 | Mindset & Tooling |Completed |
+| Phase 1 | Web Foundations | 🔄 In Progress |
 | Phase 2 | Frontend (React + Next.js) | ⏳ Upcoming |
 | Phase 3 | Backend (Node.js) | ⏳ Upcoming |
 | Phase 4 | Databases & Integration | ⏳ Upcoming |

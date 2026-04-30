@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(vijith\ profisnal\ photo.jpeg) no-repeat ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    border: 3px solid #972a2a;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #eee;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:background-color 3s ease-in-out 1s;
+}
+
+button:hover {
+    background-color: rgb(219, 13, 13);
+    color: aqua;
+}
+.position{
+    width:100px;
+    height:100px;
+    padding: 20px;
+    margin: 10%;
+    background-color: chocolate;
+    font-size: 20px;
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    left: 20px;
+    color: #972a2a;
+}

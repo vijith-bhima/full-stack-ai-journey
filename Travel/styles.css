@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #555;
+}
+
+nav,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: centers;
+  color: #fff;
+  padding: 35px 100px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 125px 100px;
+}
+
+.header h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.header nav {
+  display: flex;
+}
+
+.header nav li {
+  margin: 0px 15px;
+}
+
+.header nav li:first-child {
+  margin-left: 0px;
+}
+@media (max-width: 1000px) {
+  .header {
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+  .header h3 {
+    font-size: 18px;
+    margin: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  section {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 80px 30px;
+  }
+}
+
+.hero-section {
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-section .bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.hero-section h1 {
+  margin: 15px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: black;
+}
+
+.hero-section .browse-all-places {
+  color: #fff;
+  border-radius: 4px;
+  background-color: #d70672;
+  font-weight: 800;
+  padding: 20px 45px;
+  text-align: center;
+  font-size: 30px;
+  transition:
+    color 2s ease-in,
+    background-color 2s ease-out;
+}
+.hero-section .browse-all-places:hover {
+  background-color: #770f45;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+  .hero-section {
+    min-height: 600px;
+  }
+  .hero-section h1 {
+    font-size: 45px;
+  }
+
+  .browse-all-places {
+    padding: 15px 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-section h1 {
+    font-size: 30px;
+  }
+  .hero-section .browse-all-places {
+    padding: 10px 25px;
+    font-size: 20px;
+  }
+}
+
+section h4 {
+  color: #414a4f;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 35px;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section p {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0px 20px;
+  line-height: 2;
+}
+
+.popular-places .popular-images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.popular-places .popular-images li {
+  height: 350px;
+  padding: 20px;
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  background-color: #333333;
+  background-clip: content-box;
+}
+
+.popular-places .popular-images li.large {
+  flex-basis: 40%;
+}
+
+.popular-places .popular-images li.small {
+  flex-basis: 50%;
+}
+
+hr {
+  width: 150px;
+  height: 2px;
+  background-color: #d70672;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 35px;
+}

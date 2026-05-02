@@ -1,0 +1,160 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY BACKGROUND (main blue gradient) */
+body {
+  background: linear-gradient(135deg, #1e6fb8, #0d4d8b);
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+/* HEADER */
+header {
+  background: transparent;
+  padding: 20px 60px;
+}
+
+/* LOGO */
+header h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* NAV */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #cfe8ff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* NAV HOVER */
+nav a:hover {
+  color: #00e6a8; /* teal highlight */
+}
+
+/* MAIN */
+main {
+  padding: 40px;
+}
+
+/* PROFILE SECTION */
+.my-profile {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.my-profile img {
+  width: 180px;
+  border-radius: 50%;
+  border: 3px solid #00e6a8;
+  box-shadow: 0 0 25px rgba(0, 230, 168, 0.6);
+}
+
+.my-profile h2 {
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+/* ABOUT SECTION */
+.about-me {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.about-me h4 {
+  color: #00e6a8;
+  margin-top: 15px;
+}
+
+/* SKILLS */
+.about-me ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.about-me li {
+  background: rgba(0, 230, 168, 0.15);
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #00e6a8;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.about-me li:hover {
+  background: #00e6a8;
+  color: #0d4d8b;
+}
+
+/* FORM */
+.contact-form {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #cfe8ff;
+}
+
+/* BUTTON (LIKE IMAGE STYLE) */
+button {
+  background: linear-gradient(90deg, #00e6a8, #00cfff);
+  color: #003c6b;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #cfe8ff;
+}
+
+hr {
+  border: 1px solid rgba(255,255,255,0.2);
+}

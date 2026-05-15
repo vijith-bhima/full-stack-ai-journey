@@ -1,0 +1,28 @@
+.header-wrapper{
+  width: 100%;
+}
+
+.navbar{
+  display: none;
+}
+
+.hero-image{
+ min-height:250px;
+
+}
+
+.hero-section{
+  position: static;
+}
+
+.hero-description{
+  width:80%;
+  left:10%;
+  padding: 20px;
+  top: 300px;
+}
+
+.article-details h1 a {
+  font-size: 2rem;
+}
+

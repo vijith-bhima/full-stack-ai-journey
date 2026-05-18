@@ -15,9 +15,3 @@
   flex-grow: 2;
 }
 
-@media screen and (min-width:1020px) and (max-width:1030px){
-  .single-post{
-    flex-grow: 2;
-    background-color: red;
-  }
-}

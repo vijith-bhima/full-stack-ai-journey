@@ -20,9 +20,33 @@
   left:10%;
   padding: 20px;
   top: 300px;
+  
 }
 
-.article-details h1 a {
-  font-size: 2rem;
+.hero-description h1 a{
+  font-size: 1.5rem;
+  line-height: 1.2 ;
 }
 
+.blogs-section{
+  margin-top: 14rem;
+}
+
+.single-post{
+  flex-basis: 100%;
+}
+
+.footer-wrapper{
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.footer-links {
+ flex-direction: column;
+ row-gap:20px ;
+}
+
+.footer-links li{
+ border:none;
+}

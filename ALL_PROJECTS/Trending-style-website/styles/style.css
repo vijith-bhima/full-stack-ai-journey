@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.hero{
+ display: flex;
+ width: 100%;
+ height: 100vh;
+}
+
+.left-col{
+  flex-basis: 30%;
+  background: #e80707;
+}
+
+.right-col{
+  flex-basis: 70%;
+  height: 100%;
+}
+
+.material-symbols-outlined{
+  margin: 2rem;
+  color: white;
+}

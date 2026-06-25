@@ -1,0 +1,31 @@
+.nav-address{
+  display: none;
+}
+
+.nav-signin{
+  display: none;
+}
+.nav-second{
+  display: none;
+}
+
+.nav-return{
+  display: none;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo{
+  width: 3rem !important ;
+}
+.logo{
+  width:2rem !important;
+}
+
+.nav-search{
+  width: 23rem !important ;
+}
